@@ -81,7 +81,7 @@
 
 import { useEffect, useState } from "react";
 import "./App.css";
-import ConfettiExplosion from 'react-confetti-explosion';
+// import ConfettiExplosion from 'react-confetti-explosion';
 
 
 export const generateRandomColor = () => {
@@ -142,9 +142,9 @@ function App() {
     <div className="App" style={{ background: color }} >
 
 
-      <div className="congo">
+      {/* <div className="congo">
         {result === Result.Correct && <ConfettiExplosion />}
-      </div>
+      </div> */}
       <div className="main" style={{ borderColor: bordercolor }} >
         <h1>🎨GuessColors</h1>
         <h3>Test your yourself by guessing the right Hex code for the colors on the background</h3>
